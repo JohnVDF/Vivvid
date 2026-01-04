@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "providedTime",
+						"type": "uint256"
+					}
+				],
+				"name": "BusinessClosed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OnBreak",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "checkDivisibility",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "output",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "t",
+						"type": "uint256"
+					}
+				],
+				"name": "getStatusByTime",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "status",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/JF.sol": "ScheduleProcessor"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/JF.sol": {
+			"keccak256": "0xfa60aef2161aea20c11b5cbeb71c3e3d18aa334c54addc68be45ba242be40d9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6f2d573de16e98068e81829b0f3f681a23e01142c9f7f5f90e701d45621c3bc",
+				"dweb:/ipfs/QmZUKqg99USkLnDpt98zm63X2HcwgYwGFzTvV1ZGLVXox5"
+			]
+		}
+	},
+	"version": 1
+}
